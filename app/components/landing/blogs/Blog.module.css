@@ -5,7 +5,7 @@
     flex-wrap: wrap; /* Allows wrapping of items in smaller screens */
     justify-content: space-between; /* Evenly space the cards */
     gap: 20px; /* Adds space between the cards */
-    padding:0px 50px 20px 50px; /* ---- t r b l ------*/
+    padding:0px 50px 20px 50px; /* ---- t r b l ------ */
     border-radius: 10px;
     
 

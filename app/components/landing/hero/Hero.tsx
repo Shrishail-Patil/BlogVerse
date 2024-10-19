@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="hero-content text-center">
       <div className="max-w-md">
         <h1 className="text-7xl font-bold">Hello there</h1>
-        <p className="py-6 w-max text-2xl">Discover a universe of ideas, stories, and insights.</p>
-      <Link href="/components/login" className="bg-black text-white font-bold px-10 py-3.5 rounded-3xl ">Get Started</Link>
+        <p className="py-6 w-max text-2xl mb-5">Discover a universe of ideas, stories, and insights.</p>
+      <Link href="/components/auth/login" className={styles.btn}>Get Started</Link>
       </div>
     </div>
   </div>

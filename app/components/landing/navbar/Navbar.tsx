@@ -29,8 +29,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-      <button onClick={()=>{theme? setTheme(false) : setTheme(true)
-        console.log(theme)}}>{theme? "Dark" : "Light"}</button>
+      {/* <button onClick={()=>{theme? setTheme(false) : setTheme(true)
+        console.log(theme)}}>{theme? "Dark" : "Light"}</button> */}
       </div>
     </div>
   );

@@ -6,6 +6,7 @@
     background-image: url('../media/MacBook\ Air\ -\ 3.png');
     opacity: .75;
     font-size: smaller;
+    color: antiquewhite;
 
   }
 
@@ -16,14 +17,14 @@
   
   @media (max-width: 768px) {
     .blogcard {
-      flex: 1 1 calc(50% - 20px); /* For tablets, make the cards take up half the width */
+      flex: 1 1 calc(50% - 20px); 
       max-width: calc(50% - 20px);
     }
   }
   
   @media (max-width: 480px) {
     .blogcard {
-      flex: 1 1 100%; /* For small screens, make the cards full width */
+      flex: 1 1 100%; 
       max-width: 100%;
     }
   }
