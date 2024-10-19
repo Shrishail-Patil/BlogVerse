@@ -1,0 +1,23 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    font-size: xx-large;
+    background-color: rgb(240, 255, 255,.2);
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    cursor: default;
+}
+
+.link{
+    opacity: .6;
+}
+
+.link:hover{
+    opacity: 1;
+    cursor: default;
+    transition: ease-in-out 300ms;
+    font-weight: 500;
+}

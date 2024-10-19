@@ -24,9 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html data-theme="lofi"  lang="en" className="bg-black">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}
       >
         {children}
       </body>
